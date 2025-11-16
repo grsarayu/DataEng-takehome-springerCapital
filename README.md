@@ -1,7 +1,7 @@
 # Springer Capital - Data Engineer Take-Home Test (Pandas solution)
 
 ## Contents
-- `your_script.py` - main processing script (Pandas). Produces `/mnt/data/output/final_referral_report.csv` and `/mnt/data/output/final_referral_report_46.csv`.
+- `script.py` - main processing script (Pandas). Produces `/mnt/data/output/final_referral_report.csv` and `/mnt/data/output/final_referral_report_46.csv`.
 - `Dockerfile` - to build the container.
 - `requirements.txt` - Python dependencies.
 - `profiling_report.csv` - profiling results.
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 python your_script.py
 ```
-4. Output files will be in `/mnt/data/output/`:
+4. Output files will be in `/output/`:
 - `final_referral_report.csv` (all rows)
 - `final_referral_report_46.csv` (aggregated 46-row report)
 
